@@ -43,6 +43,7 @@ public class DeptController
 	
 //	@Autowired
 //	private DiscoveryClient client;
+	//对于注册进eureka里面的微服务，可以通过服务发现来获得该服务的信息
 	@RequestMapping(value = "/dept/discovery", method = RequestMethod.GET)
 	public Object discovery()
 	{
