@@ -1,0 +1,5 @@
+microservicecloud-start/microservicecloud-consumer-dept-80/target/
+microservicecloud-start/microservicecloud-eureka-7001/target/
+microservicecloud-start/microservicecloud-provider-dept-8001/target/
+microservicecloud-start/microservicecloud-api/target/
+microservicecloud-start/.idea

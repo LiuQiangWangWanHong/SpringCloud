@@ -67,6 +67,7 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<!-- 微服务完整info信息构建 -->
 	<build>
 		<finalName>microservicecloud</finalName>
 		<resources>
@@ -75,6 +76,7 @@
 				<filtering>true</filtering>
 			</resource>
 		</resources>
+		<!-- 解析和读取以$符号开始和以$符号结尾的在指定路径下(src/main/resources)的配置文件信息 -->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
