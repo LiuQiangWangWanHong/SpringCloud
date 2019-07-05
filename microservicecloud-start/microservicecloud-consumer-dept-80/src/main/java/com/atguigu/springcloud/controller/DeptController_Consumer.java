@@ -15,8 +15,9 @@ import java.util.List;
 @RestController
 public class DeptController_Consumer
 {
-	private static final String REST_URL_PREFIX = "http://localhost:8001";
-	//private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
+	//private static final String REST_URL_PREFIX = "http://localhost:8001";
+	private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
+	//ribbon才可以通过服务名访问微服务
 
 	@Autowired
 	private RestTemplate restTemplate;
