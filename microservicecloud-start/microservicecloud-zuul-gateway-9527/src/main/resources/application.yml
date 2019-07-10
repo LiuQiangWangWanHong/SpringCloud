@@ -15,7 +15,8 @@ eureka:
 
 
 zuul:
-  ignored-services: microservicecloud-dept
+  prefix: /atguigu   #设置统一公共前缀
+  ignored-services: "*"
   routes:   #把真实的服务名称忽略
     mydept.serviceId: microservicecloud-dept
     mydept.path: /mydept/**
